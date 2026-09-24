@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Application Form</h1>
+    <p>field marked with * are required</p>
+    
+    <form>
+        <section>
+      <h3>A.Genral Information</h3>
+      <br>
+      <label>Proposed Insured's Full Name</label> 
+      <br>
+      <input type="box"> 
+      <br>
+      <br>
+     <label>Gender:</label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+      <br><br>
+      <label>address</label>
+      <br>
+      <input type="address" required>
+      <br><br>
+      <label>Phone Number</label>
+      <br><br>
+      <input type="number" placeholder="+92 123 456789" required>
+      <br><br>
+      <label>ID / CNIC Number</label>
+      <br><br>
+      <input type="number" placeholder="42101-1234567-1" required>
+      <br><br>
+     <label>Birth date</label>
+     <br><br>
+     <input type="date" required>
+     <br><br>
+     <label>email address</label>
+     <br><br>
+     <input type="email" placeholder="name@example.com" required>
+     <br><br>
+     <label>occupation</label>
+     <br><br>
+     <input type="box" placeholder="occupation">
+     <br><br>
+     <label>Social Secuirty / Refrence Number</label>
+     <br><br>
+     <input type="box">
+     <br><br>
+  <label>select status</label>
+  <br><br>
+  <input type="box" placeholder="Select your Martial Status" required>
+  <br><br>
+  <label>Are You Retired?</label>
+  <input type="radio" value="yes" required>yes
+  <input type="radio" value="no" required>no
+  </section>
+
+  <section>
+<h1>B. Type of health Coverage</h1>
+<div>
+<label></b>Employ Coverage</b></label>
+<br><br>
+<input type="radio" name="Employ Coverage" value="yes"required> yes
+<input type="radio" name="Employ Coverage"value="no"required> no
+<br><br>
+<label>Employ plan choices</label>
+<br><br>
+<select>
+    <option selected disabled>select employ plan choices</option>
+    <option> senior</option>
+    <option> manager</option>
+</select>
+</div>
+<br>
+<div>
+<label><h3>Spouse coverage</h3></label>
+<input type="radio" name="Spouse plan choices" value="yes" required>yes
+<input type="radio" name="Spouse plan choices" value="no" required>no
+<br><br>
+<label>spouse plane choice</label>
+<br><br>
+<select>
+    <option selected disabled>select  plan </option>
+    <option>senior manager</option>
+    <option>haier manager</option>
+</select>
+ </div>
+ <br><br>
+<div>
+    <label>children coverage</label>
+    <br><br>
+    <input type="radio" name="children coverage" value="yes" required> yes
+   <input type="radio" name="children coverage" value="no" required>no
+   <br><br>
+   <label>children Plan Choice</label>
+   <br><br>
+   <select>
+    <option selected disabled>Select plan </option>
+    <option>abc</option>
+    <option>abg</option>
+   </select>
+   </section>
+</div>
+<br><br>
+<section>
+    <div>
+<label><h1>C. Spouse/Children Information</h1></label>
+
+<label>Dependent Name</label>
+<br><br>
+<input type="box">
+<br><br>
+<label>Relationship</label>
+<br><br>
+<select>
+    <option selected disabled>Select Relationship</option>
+    <option>Married</option>
+    <option>Unmarried</option>
+    </div>
+</select>
+<br><br>
+<label>Age</label>
+<br><br>
+<input type="number">
+<br><br>
+<label>ID /SSN</label>
+<BR><BR>
+    <input type="text">
+    <br><br>
+    <label> Birth Date</label>
+    <br><br>
+    <input type="date">
+    <br><br>
+    <label>Gender</label>
+    <br><br>
+    <select>
+    <option selected disabled>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    </select>
+</section>
+<br><br>
+<section>
+    <div>
+        <label><h1>D. Policy Information</h1></label>
+        <label>Units</label>
+        <br><br>
+        <input type="Units">
+        <br><br>
+        <label>Payment Mode</label>
+        <br><br>
+        <select>
+        <option selected disabled> Select payment Method</option>
+        <option>Online</option>
+        <option>Cash</option>    
+        </select>
+        <br><br>
+        <label>Cash With Aplication</label>
+        <br><br>
+        <input type="Cash With Aplication">
+        <br><br>
+        <label>Annual Premium</label>
+        <br><br>
+        <input type="Annual Premium">
+        <br><br>
+        <label>Planned Monthly Premium</label>
+        <br><br>
+        <input type="Planned Monthly Premium">
+    </div>
+</section>
+ <section>
+    <div>
+    <label><h1>E. Required Document</h1></label>
+    <h4>Attach Document</h4>
+    <input type="file" multiple>
+    <BR><BR>
+    <LABEL>Accepted  Formats PDF, JPG ,JPEG AND PNG</LABEL>
+    </div>
+    <BR><BR>
+ </section>
+ <SECTION>
+    <DIV>
+   <LABEL><H1>F.DECLARATION</H1></LABEL>
+   <INPUT TYPE="RADIO" NAME="I CONFIRM  THAT THE Information PROVIDED IN THIS APPLICATION IS COMPLETE AND ACCURATE " VALUE="I CONFIRM  THAT THE Information PROVIDED IN THIS APPLICATION IS COMPLETE AND ACCURATE "> I CONFIRM  THAT THE Information PROVIDED IN THIS APPLICATION IS COMPLETE AND ACCURATE 
+    <BR><BR>
+        <LABEL>Applicannt Full Name/Signature</LABEL>
+        <br><br>
+        <input type="Applicannt Full Name/Signature">
+        <br><br>
+        <label>Application date</label>
+        <br><br>
+        <input type="date">
+        <br><br>
+        <button type="Sumbit">sumbit</button>
+        <button type="reset">reset</button>
+        
+    </DIV>
+ </SECTION>
+     </form>
+</body>
+</html>
